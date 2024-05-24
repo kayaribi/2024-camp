@@ -55,6 +55,7 @@ table {
 img {
 	max-width: 100%;
 	height: auto;
+	display: block;
   }
   *,*::before,*::after {
 	box-sizing: border-box;
@@ -137,7 +138,7 @@ body {
 }
 
 .menu a:hover {
-	font-weight:bold;
+	font-weight: bold;
 }
 
 .menu:hover .vector1 {
@@ -222,6 +223,93 @@ a::before{
 	display: none;
 }
 
+.banner-works{
+	position: relative;
+	max-width: 1920px;
+	background: #FAFAFA;
+	z-index: 0;
+}
+
+.title {
+	max-width: 670px;
+	margin: 0 auto;
+}
+
+.slogan {
+	max-width: 670px;
+	text-align: center;
+	padding: 80px 0 24px 0;
+}
+
+.quote-right {
+	display: block;
+	margin-left: auto;
+}
+
+.title h2 {
+	font-size: 24px;
+	line-height: 1.2;
+	color: #1E1E1E;
+}
+
+.underline {
+	position: relative;
+}
+
+.underline-1::after,
+.underline-2::after {
+	position: absolute;
+	content: "";
+	background-image: url("/img/mark.png");
+	left: 0;
+	bottom: 0;
+	width: 148px;
+	height: 8px;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+
+.experiences{
+	width: 636px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 80px;
+}
+
+.experiences li{
+	width: 298px;
+}
+
+.experiences h3{
+	color: #5b5b5b;
+	margin-bottom: 8px;
+	position: relative;
+	padding-bottom: 4px;
+}
+
+.experiences h3::after {
+	content: "";
+	position: absolute;
+	width: 24px;
+	bottom:-2px;
+	left:135px;
+	border: 2px solid #C1C1C1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1918px) {
 	.l-f {
 		margin: 0 auto;
@@ -253,7 +341,7 @@ a::before{
 		display: flex;
 	}
 
-	.hamburger-frame{
+	.hamburger-frame {
 		width: 20%;
 		margin: 40px auto;
 	}
@@ -261,9 +349,9 @@ a::before{
 	.frame4 {
 		display: flex;
 		max-height: 0;
-        overflow: hidden;
-        flex-direction: column;
-        background-color: white;
+		overflow: hidden;
+		flex-direction: column;
+		background-color: white;
 	}
 
 	/* Class to show the menu when hamburger is clicked */
