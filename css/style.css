@@ -246,7 +246,7 @@ a::before{
 	margin-left: auto;
 }
 
-.title h2 {
+.title p {
 	font-size: 24px;
 	line-height: 1.2;
 	color: #1E1E1E;
@@ -261,7 +261,7 @@ a::before{
 	position: absolute;
 	content: "";
 	background-image: url("/img/mark.png");
-	left: 0;
+	left: -12px;
 	bottom: 0;
 	width: 148px;
 	height: 8px;
@@ -275,6 +275,7 @@ a::before{
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 80px;
+	margin: 0 auto;
 }
 
 .experiences li{
@@ -286,6 +287,7 @@ a::before{
 	margin-bottom: 8px;
 	position: relative;
 	padding-bottom: 4px;
+	font-weight: normal;
 }
 
 .experiences h3::after {
@@ -295,6 +297,173 @@ a::before{
 	bottom:-2px;
 	left:135px;
 	border: 2px solid #C1C1C1;
+  }
+
+  .experiences p{
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+  }
+
+  .container{
+	margin-top: 120px;
+  }
+
+  .work{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1296px;
+	margin: 0 auto;
+  }
+  .work-lg{
+	width: 636px;
+	margin-bottom: 80px;
+  }
+  .work-image{
+	margin-bottom: 16px;
+	border-radius: 8px;
+	border: 1px;
+  }
+  .work-title{
+	font-weight:bold;
+	color: #3B3B3B;
+	font-size: 28px;
+	line-height: 1.2;
+	margin-left: 16px;
+  }
+  .work-content{
+	color: #919191;
+	margin-top: 8px;
+	font-size: 16px;
+	margin-left: 16px;
+  }
+  .column{
+	display: flex;
+	margin-top: 24px;
+	gap: 16px;
+	margin-left: 16px;
+  }
+  .tag{
+	color: #3B3B3B;
+	font-size: 16px;
+	padding: 4px 12px;
+	background: #F1F1F1;
+	border-radius: 16px;
+  }
+
+  .pages{
+	width: 152px;
+	gap: 16px;
+	margin: 0 auto 120px auto;
+	display: flex;
+	justify-content: space-between;
+  }
+  .pages li{
+	width: 40px;
+	height: 40px;
+	padding: 2px 13px 2px 13px;
+	border-radius: 4px 4px 4px 4px;
+	background: #FFFFFF;
+  }
+  .pages a{
+	font-size: 24px;
+	line-height: 1.5;
+	text-align: center;
+	color: #3B3B3B;
+	text-decoration: none;
+  }
+  .pages li:hover{
+	background: #1E1E1E;
+  }
+  .pages a:hover{
+	color: #FFFFFF;
+  }
+
+  .footer-lg{
+	max-width: 1920px;
+	background-color: #FAFAFA;
+	background-image: url(/img/footer-bg-lg.png);
+	background-size:cover;
+  }
+  .footer-lg-container{
+	padding: 80px 312px 80px 312px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+  }
+
+  .footer-lg-container-left{
+	max-width: 686px;
+  }
+
+  .footer-lg-container-left img{
+	margin-bottom: 24px;
+  }
+  .footer-lg-container-left p{
+	width: 300px;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+  }
+
+  .footer-lg-container-left .mail{
+	font-size: 20px;
+	line-height: 1.2;
+	color: #919191;
+	text-decoration: none;
+  }
+
+  .footer-lg-container-right{
+	width: 306px;
+  }
+  .footer-lg-container-right li{
+	padding: 8px 24px 8px 24px;
+	border-radius: 8px;
+	background: #FFFFFF;
+	border: 1px solid #C1C1C1;
+  }
+
+  .footer-lg-container-right a{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #3B3B3B;
+  }
+
+  .footer-lg-container-right img{
+	margin-right: 8px;
+  }
+
+  .footer-lg-container-right .instagram{
+	margin: 24px 0;
+  }
+
+  .footer-lg-container-right .list{
+	background: #000000;
+  }
+
+  .footer-lg-container-right .list a{
+	color: #FFFFFF;
+	font-weight: bold;
+  }
+
+  .footer-lg-container-right .instagram:hover{
+	background: #000000;
+  }
+  .footer-lg-container-right .instagram:hover a{
+	color: #FFFFFF;
+	font-weight: bold;
+  }
+
+  .footer-lg-container-right .facebook:hover{
+	background: #000000;
+  }
+  .footer-lg-container-right .facebook:hover a{
+	color: #FFFFFF;
+	font-weight: bold;
   }
 
 
