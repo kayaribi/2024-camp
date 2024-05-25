@@ -260,7 +260,7 @@ a::before{
 .underline-2::after {
 	position: absolute;
 	content: "";
-	background-image: url("/img/mark.png");
+	background-image: url("./img/mark.png");
 	left: -12px;
 	bottom: 0;
 	width: 148px;
@@ -383,7 +383,7 @@ a::before{
   .footer-lg{
 	max-width: 1920px;
 	background-color: #FAFAFA;
-	background-image: url("/img/footer-bg-lg.png");
+	background-image: url("./img/footer-bg-lg.png");
 	background-size:cover;
   }
   .footer-lg-container{
