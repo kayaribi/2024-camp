@@ -383,7 +383,7 @@ a::before{
   .footer-lg{
 	max-width: 1920px;
 	background-color: #FAFAFA;
-	background-image: url(/img/footer-bg-lg.png);
+	background-image: url("/img/footer-bg-lg.png");
 	background-size:cover;
   }
   .footer-lg-container{
