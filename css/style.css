@@ -68,15 +68,19 @@ body {
 	margin: 0;
 }
 
+button {
+	padding: 0;
+}
+
 .header {
 	position: relative;
+	border-bottom: 1px solid #f1f1f1;
 }
 
 .l-f {
-	max-width: 1320px;
+	max-width: 1296px;
     margin: 0 auto;
 	padding: 28px 0px;
-    border-bottom: 1px solid #919191;
 }
 
 .frame {
@@ -98,6 +102,8 @@ body {
 .menu a {
 	color: black;
 	text-decoration: none;
+	font-size: 20px;
+	line-height: 1.5;
 }
 
 .border {
@@ -213,6 +219,7 @@ body {
 
 .experiences h3 {
 	color: #5b5b5b;
+	line-height: 1.5;
 	margin-bottom: 8px;
 	position: relative;
 	padding-bottom: 4px;
@@ -223,8 +230,8 @@ body {
 	content: "";
 	position: absolute;
 	width: 24px;
-	bottom: -2px;
-	left: 135px;
+	bottom: 0px;
+	left: 137px;
 	border: 2px solid #C1C1C1;
 }
 
@@ -235,19 +242,19 @@ body {
 }
 
 .container {
-	margin-top: 120px;
+	max-width: 1296px;
+	margin:120px auto 0 auto;
 }
 
 .work {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 1296px;
-	margin: 0 auto;
+	margin-bottom: 72px;
+	justify-content: center;
+    gap: 0 24px;
 }
 
 .work-lg {
-	width: 636px;
 	margin-bottom: 80px;
 }
 
@@ -269,6 +276,7 @@ body {
 	color: #919191;
 	margin-top: 8px;
 	font-size: 16px;
+	line-height: 1.5;
 	margin-left: 16px;
 }
 
@@ -285,6 +293,7 @@ body {
 	padding: 4px 12px;
 	background: #F1F1F1;
 	border-radius: 16px;
+	line-height: 1.5;
 }
 
 .pages {
@@ -416,14 +425,13 @@ body {
 
 
 
+@media (max-width: 768px){
 
-
-
-@media (max-width: 768px) {
 	.l-f {
+		height: 56px;
 		display: flex;
         justify-content: space-between;
-		padding: 8px 0px;
+		padding:8px 12px;
 	  }
 
 	  .hamburger {
@@ -431,18 +439,18 @@ body {
 		border: 0;
 		background-color: transparent;
 		cursor: pointer;
-		span {
-		  font-size: 40px;
-		}
 	  }
 
 	  .frame {
 		display: none;
 		flex-direction: column;
-		top: 223px;
+		top: 240px;
 		align-items: center;
 		z-index: 1; 
 		background: #FFFFFF;
+		width: 770px;
+		padding: 40px 0;
+		gap: 24px
 	  }
 	  
 	.action{
@@ -452,5 +460,115 @@ body {
 	.close {
 		display: none;
 	  }
+
+	.title {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.slogan{
+		display: flex;
+		flex-direction:column;
+		align-items:center;
+		padding: 40px 0;
+	}
+
+	.quote-right{
+		display: none;
+	}
+
+	.title p {
+		font-size: 20px;
+		line-height: 1.5;
+		text-align: center;
+	}
+
+	.title .down{
+		max-width: 260px;
+	}
+
+	.underline-1::after, .underline-2::after {
+		left: 0px;
+		width: 108px;
+		height: 6px;
+		z-index: -1;
+	}
+
+	.experiences{
+		max-width: 235px;
+		flex-direction:column;
+		align-items:center;
+	}
+
+	.experiences-2B{
+		margin-bottom: 20px;
+	}
+
+	.container {
+		margin-top: 78.9px;
+		/* max-width: 768px; */
+		/* margin-left: auto;
+		margin-right: auto;; */
+	}
+	.work {
+		flex-direction: column;
+		align-content: center;
+		padding: 0 12px;
+		margin: 0;
+	}
+
+	.work-lg {
+		margin-bottom: 48px;
+	}
+
+
+	.work-image{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.work-title {
+		font-size: 20px;
+	}
+
+	.work-content{
+		max-width: 319px;
+	}
+
+	.column{
+		margin-top: 16px;
+		max-width: 314px;
+		gap: 8px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	  
 }
