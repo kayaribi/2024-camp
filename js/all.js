@@ -1,13 +1,10 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const hamburger = document.querySelector('.hamburger .material-icons');
-    const menu = document.querySelector('.frame4');
+// $(".hamburger").click(function () {
+//     $(".frame").toggleClass("action");
+//   });
 
-    hamburger.addEventListener('click', function () {
-        menu.classList.toggle('show');
-        if (menu.classList.contains('show')) {
-            hamburger.textContent = 'close';
-        } else {
-            hamburger.textContent = 'menu';
-        }
-    });
-});
+  $(".hamburger").click(function () {
+    $(".frame").toggleClass("active");
+    $(".hamburger-icon").toggleClass("close");
+    $(".closure").toggleClass("close");
+    $(".frame").toggleClass("close");
+  });
