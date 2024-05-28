@@ -93,9 +93,8 @@ body {
 
 .menu {
 	position: relative;
-	line-height: 24px;
+	line-height: 1.5;
 	padding: 4px 8px;
-	gap: 10px;
 }
 
 .menu a {
@@ -107,104 +106,45 @@ body {
 	position: absolute;
 	width: 8px;
 	height: 8px;
+	opacity: 0;
+	border: 1px solid #919191
 }
 
 .vector1 {
-	top: 0;
-	right: 0;
-	border-top: 1px solid #ffffff;
-	border-right: 1px solid #ffffff;
+    top: 0;
+    right: 0;
+    border-bottom: none;
+    border-left: none;
 }
 
 .vector2 {
 	bottom: 0;
-	left: 0;
-	border-bottom: 1px solid #ffffff;
-	border-left: 1px solid #ffffff;
+    left: 0;
+    border-top: none;
+    border-right: none;
 }
 
 .vector3 {
 	top: 0;
-	left: 0;
-	border-top: 1px solid #ffffff;
-	border-left: 1px solid #ffffff;
+    left: 0;
+    border-bottom: none;
+    border-right: none;
 }
 
 .vector4 {
 	bottom: 0;
-	right: 0;
-	border-bottom: 1px solid #ffffff;
-	border-right: 1px solid #ffffff;
+    right: 0;
+    border-top: none;
+    border-left: none;
 }
 
-.menu a:hover {
+.menu a:hover{
 	font-weight: bold;
 }
 
-.menu:hover .vector1 {
-	border-top: 1px solid #919191;
-	border-right: 1px solid #919191;
+.menu a:hover .border {
+	opacity: 1;
 }
-
-.menu:hover .vector2 {
-	border-bottom: 1px solid #919191;
-	border-left: 1px solid #919191;
-}
-
-.menu:hover .vector3 {
-	border-top: 1px solid #919191;
-	border-left: 1px solid #919191;
-}
-
-.menu:hover .vector4 {
-	border-bottom: 1px solid #919191;
-	border-right: 1px solid #919191;
-}
-
-/* .menu:hover::before,.menu:hover::after,a:hover::before,a:hover::after{
-	border-color: #919191;
-}
-
-a::before{
-	content: "";
-	width: 8px;
-	height: 8px;
-	border-left:1px solid #ffff;
-	border-bottom:1px solid #ffff;
-	position:absolute;
-	left:0px;
-	bottom:0px;
-  }
-  a::after{
-	content: "";
-	width: 8px;
-	height: 8px;
-	border-right:1px solid #ffff;
-	border-bottom:1px solid #ffff;
-	position:absolute;
-	right:0px;
-	bottom:0px;
-  }
-  .menu::before{
-	content: "";
-	width: 8px;
-	height: 8px;
-	border-left:1px solid #ffff;
-	border-top:1px solid #ffff;
-	position:absolute;
-	left:0px;
-	top:0px;
-  }
-  .menu::after{
-	content: "";
-	width: 8px;
-	height: 8px;
-	border-right:1px solid #ffff;
-	border-top:1px solid #ffff;
-	position:absolute;
-	right:0px;
-	top:0px;
-  } */
 
 .hamburger {
 	display: none;
