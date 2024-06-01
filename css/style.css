@@ -342,10 +342,6 @@ button {
 	justify-content: space-between;
 }
 
-.footer-lg-container-left {
-	/* max-width: 686px; */
-}
-
 .footer-lg-container-left img {
 	margin-bottom: 24px;
 	width: 40%;
@@ -419,8 +415,6 @@ button {
 	color: #FFFFFF;
 	font-weight: bold;
 }
-
-
 
 
 
@@ -523,6 +517,9 @@ button {
 		margin-bottom: 48px;
 	}
 
+	.work-t-c{
+		width: 319px;
+	}
 
 	.work-title {
 		font-size: 20px;
