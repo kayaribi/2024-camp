@@ -490,7 +490,6 @@ button {
 		width: 108px;
 		height: 6px;
 		z-index: -1;
-		/* transform: translateX(-50%); */
 	}
 
 	.experiences{
