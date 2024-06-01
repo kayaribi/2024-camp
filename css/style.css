@@ -79,18 +79,18 @@ button {
 
 .l-f {
 	max-width: 1296px;
-    margin: 0 auto;
+	margin: 0 auto;
 	padding: 28px 0px;
 }
 
 .frame {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	gap: 40px;
 }
 
 .menu {
@@ -115,34 +115,34 @@ button {
 }
 
 .vector1 {
-    top: 0;
-    right: 0;
-    border-bottom: none;
-    border-left: none;
+	top: 0;
+	right: 0;
+	border-bottom: none;
+	border-left: none;
 }
 
 .vector2 {
 	bottom: 0;
-    left: 0;
-    border-top: none;
-    border-right: none;
+	left: 0;
+	border-top: none;
+	border-right: none;
 }
 
 .vector3 {
 	top: 0;
-    left: 0;
-    border-bottom: none;
-    border-right: none;
+	left: 0;
+	border-bottom: none;
+	border-right: none;
 }
 
 .vector4 {
 	bottom: 0;
-    right: 0;
-    border-top: none;
-    border-left: none;
+	right: 0;
+	border-top: none;
+	border-left: none;
 }
 
-.menu a:hover{
+.menu a:hover {
 	font-weight: bold;
 }
 
@@ -244,7 +244,7 @@ button {
 
 .container {
 	max-width: 1296px;
-	margin:120px auto 0 auto;
+	margin: 120px auto 0 auto;
 }
 
 .work {
@@ -252,7 +252,7 @@ button {
 	flex-wrap: wrap;
 	margin-bottom: 72px;
 	justify-content: center;
-    gap: 0 24px;
+	gap: 0 24px;
 }
 
 .work-lg {
@@ -420,60 +420,60 @@ button {
 
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
 	.l-f {
 		height: 56px;
 		display: flex;
-        justify-content: space-between;
-		padding:8px 12px;
-	  }
+		justify-content: space-between;
+		padding: 8px 12px;
+	}
 
-	  .hamburger {
+	.hamburger {
 		display: block;
 		border: 0;
 		background-color: transparent;
 		cursor: pointer;
-	  }
+	}
 
-	  .frame {
+	.frame {
 		display: none;
 		flex-direction: column;
 		top: 240px;
 		align-items: center;
-		z-index: 1; 
+		z-index: 1;
 		background: #FFFFFF;
 		width: 480px;
 		padding: 40px 0;
 		gap: 24px
-	  }
-	  
-	.action{
-	  display: flex;
+	}
+
+	.action {
+		display: flex;
 	}
 
 	.close {
 		display: none;
-	  }
+	}
 
-	.slogan{
+	.slogan {
 		display: flex;
-		flex-direction:column;
-		align-items:center;
+		flex-direction: column;
+		align-items: center;
 		padding: 40px 0;
 		width: 300px;
 		margin: 0 auto;
 	}
 
-	.down{
+	.down {
 		width: 260px;
 	}
 
-	.quote-right{
+	.quote-right {
 		display: none;
 	}
 
-	.title{
+	.title {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -485,26 +485,28 @@ button {
 		text-align: center;
 	}
 
-	.underline-1::after, .underline-2::after {
+	.underline-1::after,
+	.underline-2::after {
 		left: 0px;
 		width: 108px;
 		height: 6px;
 		z-index: -1;
 	}
 
-	.experiences{
+	.experiences {
 		width: 235px;
-		flex-direction:column;
-		align-items:center;
+		flex-direction: column;
+		align-items: center;
 	}
 
-	.experiences-2B{
+	.experiences-2B {
 		margin-bottom: 20px;
 	}
 
 	.container {
 		margin-top: 78.9px;
 	}
+
 	.work {
 		flex-direction: column;
 		align-content: center;
@@ -516,7 +518,7 @@ button {
 		margin-bottom: 48px;
 	}
 
-	.work-t-c{
+	.work-t-c {
 		width: 319px;
 	}
 
@@ -524,7 +526,7 @@ button {
 		font-size: 20px;
 	}
 
-	.column{
+	.column {
 		margin-top: 16px;
 		gap: 8px;
 	}
@@ -554,7 +556,7 @@ button {
 		margin: 40px 12px;
 	}
 
-	.footer-lg-container-right{
+	.footer-lg-container-right {
 		margin-bottom: 40px;
 	}
 
@@ -588,5 +590,5 @@ button {
 
 
 
-	  
+
 }
