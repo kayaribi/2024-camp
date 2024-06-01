@@ -329,7 +329,6 @@ button {
 }
 
 .footer-lg {
-	max-width: 1920px;
 	background-color: #FAFAFA;
 	background-image: url("../img/footer-bg-lg.png");
 	background-size: cover;
@@ -343,11 +342,12 @@ button {
 }
 
 .footer-lg-container-left {
-	max-width: 686px;
+	/* max-width: 686px; */
 }
 
 .footer-lg-container-left img {
 	margin-bottom: 24px;
+	width: 40%;
 }
 
 .footer-lg-container-left p {
@@ -448,7 +448,7 @@ button {
 		align-items: center;
 		z-index: 1; 
 		background: #FFFFFF;
-		width: 770px;
+		width: 480px;
 		padding: 40px 0;
 		gap: 24px
 	  }
@@ -460,11 +460,6 @@ button {
 	.close {
 		display: none;
 	  }
-
-	.title {
-		max-width: 300px;
-		margin: 0 auto;
-	}
 
 	.slogan{
 		display: flex;
@@ -483,10 +478,6 @@ button {
 		text-align: center;
 	}
 
-	.title .down{
-		max-width: 260px;
-	}
-
 	.underline-1::after, .underline-2::after {
 		left: 0px;
 		width: 108px;
@@ -495,7 +486,7 @@ button {
 	}
 
 	.experiences{
-		max-width: 235px;
+		max-width: 100%;
 		flex-direction:column;
 		align-items:center;
 	}
@@ -506,9 +497,6 @@ button {
 
 	.container {
 		margin-top: 78.9px;
-		/* max-width: 768px; */
-		/* margin-left: auto;
-		margin-right: auto;; */
 	}
 	.work {
 		flex-direction: column;
@@ -522,25 +510,41 @@ button {
 	}
 
 
-	.work-image{
-		max-width: 100%;
-		height: auto;
-	}
-
-
 	.work-title {
 		font-size: 20px;
 	}
 
-	.work-content{
-		max-width: 319px;
-	}
-
 	.column{
 		margin-top: 16px;
-		max-width: 314px;
 		gap: 8px;
 	}
+
+	.footer-lg {
+		background-color: #FAFAFA;
+		background-image: url(../img/footer-bg-sm.png);
+		background-size: cover;
+	}
+
+	.footer-lg-container {
+		padding: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-lg-container-left img {
+		margin-bottom: 24px;
+		width: 120px;
+	}
+
+	.footer-lg-container-left {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 351px;
+		margin: 40px 12px;
+	}
+
+
 
 
 
