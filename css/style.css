@@ -466,10 +466,22 @@ button {
 		flex-direction:column;
 		align-items:center;
 		padding: 40px 0;
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	.down{
+		width: 260px;
 	}
 
 	.quote-right{
 		display: none;
+	}
+
+	.title{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
 	}
 
 	.title p {
@@ -483,10 +495,11 @@ button {
 		width: 108px;
 		height: 6px;
 		z-index: -1;
+		/* transform: translateX(-50%); */
 	}
 
 	.experiences{
-		max-width: 100%;
+		width: 235px;
 		flex-direction:column;
 		align-items:center;
 	}
